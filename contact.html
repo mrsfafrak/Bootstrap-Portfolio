@@ -13,39 +13,40 @@
 
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-light">
-        <div class="float-left name">
-            <span>Tori Fafrak</span>
-        </div>
-        <div class="float-right menu">
-            <a class="nav-link" href="index.html">About</a>
-            <span class="navbar-text">|</span>
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-            <span class="navbar-text">|</span>
-            <a class="nav-link" href="contact.html">Contact</a>
+    <nav class="navbar navcolor">
+        <div class="container">
+
+            <span class="name">Tori Fafrak</span>
+            <a class="nav-link menu" href="index.html">About</a>
+            <a class="navbar-text menu">|</a>
+            <a class="nav-link menu" href="portfolio.html">Portfolio</a>
+            <a class="navbar-text menu">|</a>
+            <a class="nav-link menu" href="contact.html">Contact</a>
+
         </div>
     </nav>
 
     <!-- Main container of page content -->
-    <div container="container">
-    <form>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Name</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    <div class="container main-section">
+        <h1 class="borderpatrol">Contact Form</h1>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Name</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Enter Name"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Leave a message!"></textarea>
+            </div>
+            <button type="submit" class="btn btndetail">Submit</button>
+        </form>
     </div>
 
-    <footer class="col-md-12">
+    <footer>
         Copyright ©
     </footer>
 
