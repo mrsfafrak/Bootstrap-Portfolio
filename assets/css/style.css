@@ -15,7 +15,7 @@ p {
     background: #ffffff;
     border: 0.1rem solid #dddddd; 
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 15rem;
 }
 .name{
     background-color:#4aaaa5;
@@ -38,6 +38,9 @@ footer{
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     height: 75px;
     padding-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 h5{
     text-align: center;
