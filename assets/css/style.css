@@ -26,9 +26,11 @@ p {
     width: 10rem;
     text-align: center;
     font-size: 1.5rem;
+    padding-top: .3rem;
 }
 .menu{
     color: #777777;
+    margin-left: 1rem;
 }
 footer{
     background-color:#666666;
@@ -36,7 +38,7 @@ footer{
     text-align: center;
     color: #ffffff;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    height: 75px;
+    height: 4rem;
     padding-top: 1rem;
     position: fixed;
     bottom: 0;
@@ -74,4 +76,11 @@ h1{
 }
 .borderpatrol{
     border-bottom: solid 0.1rem lightgray;
+}
+
+.navright{
+    float:right;
+}
+.navleft{
+    float: left;
 }
