@@ -84,3 +84,31 @@ h1{
 .navleft{
     float: left;
 }
+/* I struggled with the media queries and formatting.
+so I tried to at least focus on making the navigation bar work
+and take over 100% of the screen width */
+
+/* for screens less than 768px */
+@media screen and (max-width: 768px) {
+    .name {
+      width: 100%;
+    }
+    .navright{
+        width: 100%;
+    }
+    .menu{
+        margin-left: 5rem;
+    }
+  }
+/* for screens less than 640px */
+@media screen and (max-width: 640px) {
+    .name{
+      width: 100%;
+    }
+    .navright{
+        width: 100%;
+    }
+    .menu{
+        margin-left: 3rem;
+    }
+  }
